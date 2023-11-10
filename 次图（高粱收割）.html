@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>茅台酒制作工艺</title>
+  <meta charset="utf-8" />
+  <style type="text/css">
+    html,
+    body {
+      width: 630px;
+      height: 1030px;
+      margin: 0px auto;
+      overflow: hidden;
+      position: relative;
+      background-image: url("历史感背景图.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .container{
+      width:100%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    header {
+      background-color: #000000;
+      width: 100%;
+      line-height: 50px;
+      color: #FFF;
+      flex-grow: 0;
+    }
+
+    .Cont {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+    }
+
+    .headCont {
+      position: relative;
+      text-align: center;
+      flex-grow: 1;
+      font-size:20px;
+    }
+
+    .headCont:nth-of-type(2) {
+      color: #ED8B55;
+    }
+    
+    .content{
+      flex-grow: 1;
+      display: flex;
+    }
+
+    .line {
+      width: 100%;
+      height: 20%;
+      flex-grow: 1;
+      flex-shrink: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top:45%;
+
+    }
+
+
+
+    .line div{
+      margin:0 10px;
+      width:25%;
+      height:auto;
+      cursor:pointer;
+    }
+    .line div:hover {
+      transform: scale(2);
+      transition: 0.8s;
+    }
+    .line div img{
+      height: 100%;
+      width:100%;
+    }
+
+  </style>
+</head>
+
+
+
+
+<body>
+  <div class="container">
+    <header>
+      <div class="Cont">
+        <div class="headCont">农田劳作</div>
+        <div class="headCont">雀立梁头</div>
+        <div class="headCont">拾梁画作</div>
+        <div class="headCont">粮田油画</div>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="line">
+        <div><img src="高粱收割1.jpg"></div>
+        <div><img src="高粱收割2.jpg"></div>
+        <div><img src="高粱收割3.jpg"></div>
+        <div><img src="高粱收割4.jpg"></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
